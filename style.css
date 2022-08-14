@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #E3E7EB;
+}
+
+
+/* Navigasi bar */
+nav {
+    display: flex;
+    padding: 0px 40px;
+    background-color: whitesmoke;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.084);
+}
+
+nav ul {
+    display: flex;
+    flex: 1;
+    padding-left: 30px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav ul li img {
+    width: 80px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    font-weight: lighter;
+}
+
+.btnContact {
+    flex: 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btnContact button {
+    cursor: pointer;
+    margin-right: 30px;
+    padding: 8px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.315);
+}
+
+
+/* Main */
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+section .container {
+    width: 80%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.272);
+    padding: 40px;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+/* Section Main Left */
+section .main-left {
+    flex: 2;
+    padding: 35px 50px 0px 0px;
+}
+
+section .main-left h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+section .main-left p {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+section .main-left .link-contact {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+section .main-left .link-contact button {
+    margin-right: 30px;
+    padding: 8px 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.315);
+}
+
+section .main-left .link-contact .linkCV {
+    height: 17px;
+}
+
+section .main-left .link-contact .linkCV a {
+    text-decoration: none; 
+    color: black;
+    font-weight: bold;
+}
+
+section .main-left .link-contact .linkCV a p {
+    font-size: 15px;
+}
+
+section .main-left .link-contact .linkCV span {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+section .main-left .sosmed {
+    margin-top: 40px;
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly; 
+    margin-left: -20px;
+}
+
+section .main-left .sosmed i {
+    font-size: 25px;
+}
+
+section .main-left .sosmed a {
+    text-decoration: none; 
+    color: black
+}
+
+
+/* Section Main Right */
+section .main-right {
+    flex: 1.1;
+    display: flex;
+    justify-content: center;
+}
+
+section .main-right .card {
+    width: 80%;
+    box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.194);
+    border-radius: 10px;
+}
+
+section .main-right .card .footer {
+    height: 60px;
+    text-align: center;
+}
+
+section .main-right .card header img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+section .main-right .card .footer h2 {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+section .main-right .card .footer p {
+    font-size: 13px;
+    font-weight: 500; 
+    margin-bottom: 5px;
+}
